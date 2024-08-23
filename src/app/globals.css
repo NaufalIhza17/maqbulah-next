@@ -53,3 +53,13 @@
     transform: translateX(calc(-100cqw - 100%));
   }
 }
+
+.clicked-btn {
+  background-color: #212121;
+  color: #fff;
+}
+
+.not-clicked {
+  background-color: #f4f4f4;
+  color: #212121;
+}

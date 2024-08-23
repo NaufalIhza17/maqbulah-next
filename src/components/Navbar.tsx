@@ -42,11 +42,11 @@ export default function Navbar() {
                 width={175}
                 height={59}
                 src={LogoMaqbulahWhite}
-                alt="Maqbulah Umroh"
+                alt="Maqbulah Umrah"
                 className="custom-logo"
               />
             </Link>
-            <ul className="grid grid-cols-4 uppercase text-center font-bold max-lg:hidden">
+            <ul className="flex gap-5 uppercase text-center font-bold max-lg:hidden">
               <li>
                 <Link href="/" className="hover-underline-animation">
                   Beranda
@@ -54,19 +54,19 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/renew-haji-umrah"
+                  href="/paket"
                   className="hover-underline-animation"
                 >
-                  Umroh & Haji
+                  Umrah & Haji
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover-underline-animation">
+                <Link href="/galeri" className="hover-underline-animation">
                   Galeri
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover-underline-animation">
+                <Link href="/tentang-kami" className="hover-underline-animation">
                   Tentang Kami
                 </Link>
               </li>
@@ -110,11 +110,11 @@ export default function Navbar() {
         >
           <Link href="/">Beranda</Link>
           <div className="h-[1px] bg-white w-full"></div>
-          <Link href="/renew-haji-umrah">Umroh & Haji</Link>
+          <Link href="/paket">Umrah & Haji</Link>
           <div className="h-[1px] bg-white w-full"></div>
-          <Link href="#">Galeri</Link>
+          <Link href="/galeri">Galeri</Link>
           <div className="h-[1px] bg-white w-full"></div>
-          <Link href="#">Tentang Kami</Link>
+          <Link href="/tentang-kami">Tentang Kami</Link>
           <div className="h-[1px] bg-white w-full"></div>
           <Link
             href="https://wa.me/6287777214222?text=Assalamu%27alaikum%2C%20saya%20tertarik%20dengan%20paket%20haji%2Fumrah%20dari%20Maqbulah%20yang%20saya%20lihat%20di%20website.%20Bisakah%20saya%20mendapatkan%20informasi%20lebih%20lanjut%20%3F%20Terima%20kasih."
